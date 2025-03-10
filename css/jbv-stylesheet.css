@@ -2,10 +2,33 @@ html {
     font-family: Helvetica;
 }
 
+header h1 {
+    border-collapse: collapse;
+    padding-bottom: 0px;
+    margin: 0;
+    padding: 0;
+    font-size: 5em;
+    font-weight: light;
+}
+
+header p {
+    border-collapse: collapse;
+    float: top;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+header, nav {
+    display: inline;
+    border-collapse: collapse;
+}
+
 nav ul {
     list-style-type: None;
     background-color: Green;
     font-weight: bold;
+    padding: 8px;
 }
 
 nav ul li{
@@ -19,7 +42,24 @@ nav ul li a{
     color: #FFFFFF;
 }
 
-nav ul li:hover {
+nav ul li:hover, nav ul li a:hover {
+    padding-top: 12px;
+    padding-bottom: 12px;
     background-color: rgb(130, 255, 98);
     color: #000000;
+}
+
+img.logo {
+    background-color: #FFFFFF;
+    float: left;
+}
+
+div.about-us {
+    background-color: Green;
+    color: White;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
