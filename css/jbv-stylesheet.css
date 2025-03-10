@@ -1,0 +1,16 @@
+html {
+
+}
+
+nav ul {
+    background-color: Green;
+}
+
+nav ul li{
+    display: inline;
+    color: #FFFFFF;
+}
+
+nav ul li:hover {
+    color: rgb(130, 255, 98);
+}
