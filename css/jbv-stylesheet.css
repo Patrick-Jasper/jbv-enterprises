@@ -5,6 +5,7 @@ html {
 nav ul {
     list-style-type: None;
     background-color: Green;
+    font-weight: bold;
 }
 
 nav ul li{
@@ -12,6 +13,12 @@ nav ul li{
     color: #FFFFFF;
 }
 
+nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 nav ul li:hover {
     background-color: rgb(130, 255, 98);
+    color: #000000;
 }
