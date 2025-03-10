@@ -1,8 +1,9 @@
 html {
-
+    font-family: Helvetica;
 }
 
 nav ul {
+    list-style-type: None;
     background-color: Green;
 }
 
@@ -12,5 +13,5 @@ nav ul li{
 }
 
 nav ul li:hover {
-    color: rgb(130, 255, 98);
+    background-color: rgb(130, 255, 98);
 }
