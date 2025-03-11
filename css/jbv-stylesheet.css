@@ -11,7 +11,7 @@ header h1 {
     font-weight: light;
 }
 
-header p {
+header h6 {
     border-collapse: collapse;
     float: top;
     margin: 0;
@@ -22,6 +22,8 @@ header p {
 header, nav {
     display: inline;
     border-collapse: collapse;
+	margin: 0;
+	padding: 0;
 }
 
 nav ul {
@@ -29,6 +31,7 @@ nav ul {
     background-color: Green;
     font-weight: bold;
     padding: 8px;
+	margin-bottom: 0;
 }
 
 nav ul li{
@@ -49,17 +52,36 @@ nav ul li:hover, nav ul li a:hover {
     color: #000000;
 }
 
+img.large {
+	width: 100%;
+	height: 350px;
+	object-fit: cover;
+	margin: 0;
+	padding: 0;
+}
+
 img.logo {
     background-color: #FFFFFF;
     float: left;
 }
 
-div.about-us {
-    background-color: Green;
+article{
+	margin: 0;
+}
+
+article div.about-us {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: -400px;
+}
+
+article div.about-us-transbox {
+	background-color: Green;
+	opacity: 0.6;
     color: White;
-    margin: auto;
+	margin: 0;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 60px;
+    padding-left: 34%;
     padding-right: 60px;
 }
