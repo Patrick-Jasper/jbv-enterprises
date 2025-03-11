@@ -28,7 +28,7 @@ header, nav {
 
 nav ul {
     list-style-type: None;
-    background-color: Green;
+	background-color: rgba(61, 144, 108, 1);
     font-weight: bold;
     padding: 8px;
 	margin-bottom: 0;
@@ -70,18 +70,62 @@ article{
 }
 
 article div.about-us {
-	background-repeat: no-repeat;
 	background-size: cover;
-	background-position-y: -400px;
+	background-position-y: 69%;
 }
 
 article div.about-us-transbox {
-	background-color: Green;
-	opacity: 0.6;
+	background-color: rgba(61, 144, 108, 0.8);
     color: White;
 	margin: 0;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 34%;
-    padding-right: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
+
+/* 'Meet the People' Containers */
+
+.container {
+    position: relative;
+    width: 100%;
+    margin-left: 37%;
+}
+
+.image-profile {
+    display: block;
+    width: 25%;
+    height: 25%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(61, 144, 108, 1);
+    overflow: hidden;
+    width: 25%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.container:hover .overlay {
+    height: 20%;
+}
+
+.name {
+    white-space: nowrap;
+    color: white;
+    font-size: 100%;
+    text-align: center;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
